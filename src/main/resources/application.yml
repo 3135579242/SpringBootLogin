@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: study
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.121.187.38:3306/study?useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: rootroot123
+
+  data:
+    redis:
+      host: 47.121.187.38:3306
+      password: redisredis123
+      port: 6378
+      timeout: 10000
+      database: 1
+
